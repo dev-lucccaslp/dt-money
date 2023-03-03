@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header } from '../../components/Header'
 import { Summary } from '../../components/Summary'
+import { SearchForm } from './components/SearchForm'
 import { TransectionsContainer, TransectionsTable, PriceHighLight } from './styles'
 
 export function Transections() {
@@ -10,6 +11,8 @@ export function Transections() {
       <Summary />
 
       <TransectionsContainer>
+        <SearchForm />
+        
         <TransectionsTable>
           <tbody>
 
