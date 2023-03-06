@@ -3,7 +3,7 @@ import { HeaderContainer, HeaderContent, NewTransectionButton } from './styles'
 
 import logoImg from '../../assets/Logo (2).svg'
 import * as Dialog from '@radix-ui/react-dialog'
-import { NewTransectionModal } from '../NewTransectionModal'
+import { NewTransectionModal } from '../NewTransactionModal'
 
 export function Header() {
   return (
